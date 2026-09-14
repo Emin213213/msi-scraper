@@ -1,0 +1,13 @@
+{
+  "name": "msi-product-scraper",
+  "version": "1.0.0",
+  "description": "MSI product page scraper built with Playwright",
+  "main": "src/scrape.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node src/scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
